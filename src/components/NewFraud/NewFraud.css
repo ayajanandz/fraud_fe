@@ -1,0 +1,48 @@
+.registration-form {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 2.5rem;
+  padding: 20px;
+  background: #bcd2fa;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: 20px;
+  color: black;
+}
+
+.form-group {
+  margin: 10px 0;
+}
+
+label {
+  display: block;
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background: #007bff;
+  color: rgb(109, 42, 42);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #3c866f;
+
+}
