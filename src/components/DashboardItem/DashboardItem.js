@@ -57,7 +57,7 @@ function HomePage() {
         </div>
 
         <Popup openPopup={openPopup} setOpenPopup={setOpenPopup}>
-          <NewPayment />
+          <NewPayment setOpenPopup={setOpenPopup}/>
         </Popup>
 
         <PopupNewFraud fraud={fraud} setFraud={setFraud}>
