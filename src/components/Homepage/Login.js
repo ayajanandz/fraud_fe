@@ -67,7 +67,7 @@ const Login = () => {
         }}
       >
         <Typography component="h1" variant="h5">
-          Login
+          User Login
         </Typography>
         <Box component="form" onSubmit={handleSubmit} sx={{ mt: 3 }}>
           {/* Email input */}
